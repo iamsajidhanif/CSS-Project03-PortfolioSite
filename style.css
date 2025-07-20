@@ -1,0 +1,160 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+/* NAVBAR */
+
+.navbar {
+    background-color: white;
+}
+
+.navbar-nav .nav-link {
+    color: black;
+    font-size: 1.1rem;
+}
+
+.nav-link:hover {
+    color: #5E3BEE !important;
+}
+
+.btn {
+    border-color: #5E3BEE !important;
+    background-color: white !important;
+    color: #5E3BEE !important;
+}
+
+.hero_btn {
+    border-color: #5E3BEE !important;
+    background-color: transparent !important;
+    color: #5E3BEE !important;
+    padding: 10px 20px !important;
+}
+
+.btn:hover {
+    background-color: #5E3BEE !important;
+    color: white !important;
+}
+
+.hero-heading {
+    color: #5E3BEE;
+}
+
+.logo {
+    color: #5E3BEE !important;
+}
+
+.p1 {
+    font-size: large;
+}
+
+@media screen and (min-width:1024px) {
+    .navbar-nav .nav-item {
+        padding: 0 1rem;
+    }
+}
+
+/* HERO */
+
+section.hero {
+    background-color: #e6fffd;
+}
+
+@media screen and (max-width:576px) {
+    .img-fluid {
+        padding-top: 20px !important;
+    }
+
+    section.hero {
+        text-align: center;
+    }
+
+}
+
+/* PROJECT */
+
+section.projects {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    box-shadow: 1px 1px 5px gray;
+}
+
+.row {
+    margin-top: 50px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+.Projects {
+    padding-top: 40px;
+}
+
+/* ABOUT ME */
+
+.about_para {
+    text-align: center;
+    font-size: 18px;
+    line-height: 35px;
+}
+
+.about_con {
+    border: 1px solid #e6fffd;
+    border-radius: 40px;
+    background-color: #e6fffd;
+}
+
+.about_pic {
+    width: 200px;
+}
+
+/* CONTACT */
+
+.social-media>a {
+    color: black;
+    text-decoration: none;
+    font-size: 60px;
+    margin: 30px;
+}
+
+section,
+contact .social-media a {
+    padding: 0 0. 5rem;
+    font-size: 1.3rem;
+}
+
+.row {
+    font-size: 16px !important;
+}
+
+.form-control {
+    border-color: #5E3BEE !important;
+
+}
+
+.form-control:focus {
+    border-color: #5E3BEE !important;
+    box-shadow: 0 0 0 0.25rem rgba(94, 59, 238, 0.25) !important;
+    outline: none;
+}
+
+.form-check-input:checked {
+    background-color: #5E3BEE !important;
+    border-color: #5E3BEE !important;
+}
+
+.fa-github:hover {
+    color: #1F2328;
+}
+
+.fa-linkedin:hover {
+    color: #0A66C2;
+}
+
+.fa-instagram:hover {
+    color: #FF0093;
+}
